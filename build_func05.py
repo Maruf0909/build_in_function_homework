@@ -4,9 +4,14 @@ def main(n, x):
 
     Args:
         n (int): integer
+
         x (int): integer
         
     Returns:
         int: the value of the expression
     """
-    return
+    value = (pow(x,n)+pow(n,x))
+    return value
+print(main(3, 6))
+
+
