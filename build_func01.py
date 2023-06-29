@@ -7,7 +7,7 @@ def main(number):
     Returns:
         int: the absolute value of a "number"
     """
-    answer = abs(-8)
+    answer = abs(number)
 
     return answer
-print(main(-8))
+print(main(-15))
