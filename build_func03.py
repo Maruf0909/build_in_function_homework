@@ -10,5 +10,5 @@ def main(n):
     """
     value = 3 * pow((n + 1), 2)
     return value
-x = 45564
-print(main(x))
+
+print(main(3.5))
