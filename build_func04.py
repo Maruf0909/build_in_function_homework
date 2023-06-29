@@ -7,7 +7,7 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    value = pow(2+n/3,2)
+    value = pow((2+n)/3,2)
     return value
-x=5
-print(main(x))
+
+print(main(4))
